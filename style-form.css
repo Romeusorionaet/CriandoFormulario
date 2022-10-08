@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+/*HEADER*/
+
+header {
+    background-color: #535971;
+    color: white;
+    width: 100%;
+    height: 436px
+}
+
+.div-header {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 140px 678px 172px 555px; /*top, right, bottom, left*/
+}
+
+header h1 {
+    font-size: 48px;
+    font-family: 'Staatliches', cursive;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+}
+
+/*FORM*/
+
+form {
+    width: 750px;
+    background-color: white;
+    margin: -100px auto 100px auto; /*top, right, bottom, left*/
+    border-radius: 20px;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-size: 24px;
+    line-height: 34px;
+    color: #535971;
+    font-weight: 400;
+    font-family: 'Staatliches', cursive;
+
+    border-bottom: 1px solid #e6e6f0;
+    padding-bottom: 16px;
+}
+
+.div-fieldset-pessoais {
+    width: 622px;
+    padding: 64px 64px 33px 64px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fieldset-1 {
+    display: flex;
+    gap: 20px;
+}
+
+.container-fieldset-1 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fieldset-1 div input {
+    width: 300px;
+}
+
+input {
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 8px;
+    background: #FAFAFC;
+    border: none;
+    outline-offset: 10px;
+}
+
+label {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 48px;
+    color: rgba(78, 73, 88, 1);
+}
+
+label span {
+    color:  #C1BCCC;
+}
+
+
+.div-fieldset-mentor {
+    width: 622px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    line-height: 34px;
+    font-weight: 400;
+    color: #535971;
+}
+
+
+form fieldset:nth-child(3) {
+    width: 622px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: auto;
+    padding-top: 32px;
+    margin-top:  32px;
+}
+
+.container-fieldset-3 {
+    margin: 10px auto;
+    display: flex;
+    gap: 20px;
+}
+
+#date {
+    Width: 300px;
+}
+
+#time-1, #time-2 {
+    Width: 140px
+}
+
+#date {
+    margin-right: 25px;
+}
+
+/*footer*/
+
+footer {
+    background: #535971;
+    width: 750px;
+    height: 160px;
+    border-radius: 0 0 20px 20px;
+}
+
+footer .btn {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+   
+    margin: 52px 71px;
+    padding: 15px 40px;
+    width: 608px;
+    background: #FF5374;
+    border-radius: 20px;
+    border: none;
+}
