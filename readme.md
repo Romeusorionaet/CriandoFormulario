@@ -7,7 +7,7 @@
 
 <br/>
 
-[link da página (Visualização completa!)](https://romeusorionaet.github.io/CriandoFormulario/)
+[link da página](https://romeusorionaet.github.io/CriandoFormulario/)
 
 <br/>
 
