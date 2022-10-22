@@ -6,32 +6,46 @@
 
 body {
     background: #E5E5E5;
+    padding: 0 0.1vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+:root {
+    font-size: 62.5%;
 }
 
 /*HEADER*/
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     background-color: #535971;
     color: white;
     width: 100%;
-    height: 436px
+    height: 436px;
 }
 
 .div-header {
     display: flex;
     flex-direction: column;
     gap: 18px;
-    padding: 140px 678px 172px 555px; /*top, right, bottom, left*/
+    width: 75rem;
+    height: 15rem;
 }
 
 header h1 {
-    font-size: 48px;
+    font-size: 4.8rem;
     font-family: 'Staatliches', cursive;
     font-weight: 400;
 }
 
 header p {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Poppins', sans-serif;
     width: 300px;
 }
@@ -39,9 +53,9 @@ header p {
 /*FORM*/
 
 form {
-    width: 750px;
+    width: 75rem;
     background-color: white;
-    margin: -100px auto 100px auto; /*top, right, bottom, left*/
+    margin-top: -11.5rem;
     border-radius: 20px;
 }
 
@@ -50,19 +64,19 @@ fieldset {
 }
 
 fieldset legend {
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 2.4rem;
+    line-height: 3.4rem;
     color: #535971;
     font-weight: 400;
     font-family: 'Staatliches', cursive;
 
     border-bottom: 1px solid #e6e6f0;
-    padding-bottom: 16px;
+    padding-bottom: 1.6rem;
 }
 
 .div-fieldset-pessoais {
-    width: 622px;
-    padding: 64px 64px 33px 64px;
+    width: 62.2rem;
+    padding: 6.4rem 6.4rem 3.3rem 6.4rem;
 
     display: flex;
     flex-direction: column;
@@ -70,7 +84,7 @@ fieldset legend {
 
 .container-fieldset-1 {
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .container-fieldset-1 div {
@@ -79,7 +93,7 @@ fieldset legend {
 }
 
 .container-fieldset-1 div input {
-    width: 300px;
+    width: 30rem;
 }
 
 input {
@@ -93,8 +107,9 @@ input {
 
 label {
     font-family: 'Poppins', sans-serif;
-    margin-top: 48px;
+    margin-top: 4.8rem;
     color: rgba(78, 73, 88, 1);
+    font-size: 1.5rem;
 }
 
 label span {
@@ -103,7 +118,7 @@ label span {
 
 
 .div-fieldset-mentor {
-    width: 622px;
+    width: 62.2rem;
 
     display: flex;
     flex-direction: column;
@@ -112,7 +127,7 @@ label span {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Staatliches', cursive;
     line-height: 34px;
     font-weight: 400;
@@ -121,7 +136,7 @@ h2 {
 
 
 form fieldset:nth-child(3) {
-    width: 622px;
+    width: 62.2rem;
 
     display: flex;
     flex-direction: column;
@@ -132,44 +147,44 @@ form fieldset:nth-child(3) {
 }
 
 .container-fieldset-3 {
-    margin: 10px auto;
+    margin: 1rem auto;
     display: flex;
-    gap: 20px;
+    gap: 2rem;
 }
 
 #date {
-    Width: 300px;
+    Width: 30rem;
 }
 
 #time-1, #time-2 {
-    Width: 140px
+    Width: 14rem
 }
 
 #date {
-    margin-right: 25px;
+    margin-right: 2.5rem;
 }
 
 /*footer*/
 
 footer {
     background: #535971;
-    width: 750px;
-    height: 160px;
-    border-radius: 0 0 20px 20px;
+    width: 75rem;
+    height: 16rem;
+    border-radius: 0 0 2rem 2rem;
 }
 
 footer .btn {
     font-family: 'Staatliches';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 2rem;
     line-height: 26px;
     color: #FFFFFF;
    
-    margin: 52px 71px;
-    padding: 15px 40px;
-    width: 608px;
+    margin: 5.2rem 7.1rem;
+    padding: 1.5rem 4rem;
+    width: 60.8rem;
     background: #FF5374;
-    border-radius: 20px;
+    border-radius: 2rem;
     border: none;
 }
